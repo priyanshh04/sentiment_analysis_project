@@ -42,8 +42,7 @@ sentiment_analysis_project/
 │       └── model_evaluation.py     # Evaluation metrics and plots
 ├── notebooks/
 │   └── sentiment_analysis_exploration.ipynb  # Interactive analysis
-├── requirements/
-│   └── requirements.txt         # Python dependencies
+├── requirements.txt             # Python dependencies 
 ├── tests/                       # Unit tests
 │   └── test_pipeline.py
 ├── main.py                     # Main pipeline script
@@ -94,7 +93,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 # Install dependencies
-pip install -r requirements/requirements.txt
+pip install -r requirements.txt
 ```
 
 **Option B: Command Line Setup**
@@ -112,7 +111,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 # Install dependencies
-pip install -r requirements/requirements.txt
+pip install -r requirements.txt
 ```
 
 **Option C: Google Colab (Cloud-based)**
